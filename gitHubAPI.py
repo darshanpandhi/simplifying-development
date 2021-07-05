@@ -29,7 +29,7 @@ def downloadFile(url, saveAsName):
   # print('Downloading Readme file', downloadFile.counter, "/", LIMIT)
   
   response = requests.get(url, allow_redirects=True)
-  saveAsLocation = 'Readme/' + saveAsName + '.md'
+  saveAsLocation = 'Readme Files/' + saveAsName + '.md'
   # saveAsLocation = 'Readme/README' + str(downloadFile.counter) + '.md'
   # saveAsLocation = 'Readme Files/README' + str(downloadFile.counter) + '.md'  # counter + 1 to avoid 0th index in file name
   downloadFile.counter += 1
