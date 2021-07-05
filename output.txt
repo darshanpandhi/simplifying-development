@@ -1,0 +1,500 @@
+README-1-sindresorhus-awesome
+
+Languages used: {'Shell': 565}
+
+
+README-2-josephmisiti-awesome-machine-learning
+
+Languages used: {'Python': 1150}
+
+
+README-3-JessYanCoding-MVPArms
+
+Languages used: {'Java': 387381}
+
+
+README-4-go-kit-kit
+
+Languages used: {'Go': 786285, 'Shell': 588}
+
+
+README-5-apple-swift
+
+Languages used: {'C++': 42649341, 'Swift': 34931116, 'Python': 1871129, 'CMake': 604361, 'Objective-C': 426977, 'C': 362415, 'Objective-C++': 204376, 'Shell': 203415, 'LLVM': 74528, 'Emacs Lisp': 57718, 'Vim script': 20118, 'Batchfile': 15216, 'Roff': 3683, 'DTrace': 2593, 'Ruby': 2132, 'Makefile': 1841, 'D': 1107, 'sed': 1050}
+
+
+README-6-thangchung-awesome-dotnet-core
+
+Languages used: {'C#': 210}
+
+
+README-7-yandexdataschool-nlp_course
+
+Languages used: {'Jupyter Notebook': 1072740, 'Python': 105044, 'HTML': 64341, 'Dockerfile': 3538, 'Shell': 98}
+
+
+README-8-avelino-awesome-go
+
+Languages used: {'Go': 10994}
+
+
+README-9-mingrammer-diagrams
+
+Languages used: {'Python': 203290, 'JavaScript': 8191, 'Shell': 1806, 'Dockerfile': 824, 'CSS': 519}
+
+
+README-10-uber-RIBs
+
+Languages used: {'Java': 469622, 'Swift': 421798, 'Kotlin': 374673, 'JavaScript': 14648, 'Shell': 2571, 'Ruby': 1982, 'Objective-C': 814}
+
+
+README-11-huggingface-transformers
+
+Languages used: {'Python': 15824732, 'Shell': 30911, 'Dockerfile': 7040, 'Makefile': 3147, 'Jsonnet': 937}
+
+
+README-12-brianegan-flutter_architecture_samples
+
+Languages used: {'Dart': 1011365, 'Ruby': 51555, 'HTML': 13215, 'Kotlin': 7091, 'Shell': 6917, 'Swift': 6868, 'Objective-C': 631, 'Makefile': 597}
+
+
+README-13-android-sunflower
+
+Languages used: {'Kotlin': 105904, 'Shell': 1529}
+
+
+README-14-vsouza-awesome-ios
+
+Languages used: {'Swift': 39}
+
+
+README-15-apple-darwin-xnu
+
+Languages used: {'C': 50138179, 'C++': 5688689, 'Python': 1387120, 'Roff': 1382878, 'Assembly': 852687, 'HTML': 694084, 'Objective-C': 549806, 'Makefile': 345929, 'Shell': 103176, 'DTrace': 72221, 'Yacc': 52486, 'Swift': 50071, 'Lua': 31069, 'Perl': 28180, 'D': 10304, 'Lex': 3400, 'SmPL': 3358, 'Awk': 1247}
+
+
+README-16-VMadalin-android-modular-architecture
+
+Languages used: {'Kotlin': 427303, 'Shell': 734}
+
+
+README-17-Vedenin-useful-java-links
+
+Languages used: {'Java': 388696, 'Gherkin': 163}
+
+
+README-18-aritraroy-UltimateAndroidReference
+
+Languages used: {'Java': 591, 'Kotlin': 378}
+
+
+README-19-lauris-awesome-scala
+
+Languages used: {'Python': 1826}
+
+
+README-20-matteocrippa-awesome-swift
+
+Languages used: {'Swift': 25209, 'Ruby': 3801, 'Shell': 435, 'JavaScript': 92}
+
+
+README-21-sanogueralorenzo-Android-Kotlin-Clean-Architecture
+
+Languages used: {'Kotlin': 80561}
+
+
+README-22-TonnyL-PaperPlane
+
+Languages used: {'Kotlin': 377328, 'CSS': 14169, 'HTML': 13690}
+
+
+README-23-Tencent-wcdb
+
+Languages used: {'C': 16959739, 'C++': 2669591, 'Java': 878292, 'Swift': 857964, 'Objective-C++': 448316, 'Objective-C': 392281, 'Shell': 10151, 'Makefile': 6813, 'Ruby': 5933, 'AIDL': 2412, 'Awk': 1104}
+
+
+README-24-MindorksOpenSource-iOS-Viper-Architecture
+
+Languages used: {'Swift': 23238, 'Ruby': 410}
+
+
+README-25-jverkoey-iOS-Framework
+
+Languages used: {'Shell': 2696}
+
+
+README-26-ivan-bilan-The-NLP-Pandect
+
+Languages used: {'Python': 1233}
+
+
+README-27-rust-unofficial-awesome-rust
+
+Languages used: {'Rust': 19151}
+
+
+README-28-odan-learn-php
+
+Languages used: {'HTML': 2078, 'SCSS': 768}
+
+
+README-29-codeguy-modern-php
+
+Languages used: {'JavaScript': 41952, 'HTML': 38108, 'PHP': 30416, 'CSS': 14403, 'Ruby': 2103}
+
+
+README-30-ckeditor-ckeditor5
+
+Languages used: {'Rich Text Format': 14062386, 'JavaScript': 13920316, 'HTML': 4001590, 'CSS': 190114, 'Shell': 5848}
+
+
+README-31-RT-Thread-rt-thread
+
+Languages used: {'C': 709450793, 'Assembly': 15236723, 'Python': 2070725, 'HTML': 1512553, 'C++': 684162, 'Makefile': 452560, 'Shell': 416810, 'Batchfile': 183520, 'Rich Text Format': 177701, 'CMake': 139410, 'Yacc': 30555, 'CSS': 22422, 'Perl': 19317, 'M4': 17515, 'RPC': 14162, 'GDB': 11796, 'LLVM': 10344, 'Logos': 7238, 'Lex': 7026, 'Pawn': 1427, 'JavaScript': 637, 'Tcl': 179}
+
+
+README-32-microsoft-fast
+
+Languages used: {'TypeScript': 10881395, 'JavaScript': 920586, 'HTML': 305103, 'C': 110883, 'Shell': 38818, 'CSS': 24866, 'EJS': 13109}
+
+
+README-33-pointfreeco-swift-composable-architecture
+
+Languages used: {'Swift': 336460, 'Makefile': 1437}
+
+
+README-34-NVIDIA-DeepLearningExamples
+
+Languages used: {'Jupyter Notebook': 14133444, 'Python': 12362995, 'C++': 1120064, 'Shell': 913085, 'Cuda': 393035, 'Makefile': 83287, 'Dockerfile': 49866, 'CMake': 26115, 'Starlark': 16492, 'C': 10579}
+
+
+README-35-bufferapp-android-clean-architecture-boilerplate
+
+Languages used: {'Kotlin': 83619}
+
+
+README-36-skydoves-MarvelHeroes
+
+Languages used: {'Kotlin': 64732}
+
+
+README-37-qilingframework-qiling
+
+Languages used: {'Python': 2160501, 'CodeQL': 6400, 'Dockerfile': 592, 'Shell': 475, 'Batchfile': 318}
+
+
+README-38-pointfreeco-episode-code-samples
+
+Languages used: {'Swift': 5449770, 'Objective-C': 69817, 'Makefile': 4396}
+
+
+README-39-gyuho-learn
+
+Languages used: {'Go': 787803, 'C++': 67439, 'Shell': 28898, 'C': 12644, 'Python': 11948, 'Vim script': 5577, 'HTML': 3136, 'JavaScript': 2677, 'Protocol Buffer': 2308, 'Assembly': 2124, 'TypeScript': 1505, 'Nginx': 819, 'Java': 305}
+
+
+README-40-phodal-awesome-iot
+
+Languages used: {'Python': 20070}
+
+
+README-41-darwin-on-arm-xnu
+
+Languages used: {'C': 32960072, 'C++': 4455388, 'Groff': 1287025, 'Assembly': 873310, 'HTML': 712213, 'Makefile': 233202, 'Objective-C': 217883, 'Shell': 70077, 'Yacc': 68156, 'Perl': 26210, 'Python': 10112, 'Lex': 4411, 'Awk': 840}
+
+
+README-42-oneapi-src-oneDNN
+
+Languages used: {'C++': 21116800, 'C': 2641355, 'CMake': 217377, 'Python': 61834, 'Shell': 12202, 'Batchfile': 3573, 'Makefile': 1407}
+
+
+README-43-breach-thrust
+
+Languages used: {'C++': 586536, 'Objective-C++': 55832, 'Python': 41951, 'JavaScript': 32638, 'Objective-C': 4379, 'Shell': 2158, 'C': 1292}
+
+
+README-44-uber-aresdb
+
+Languages used: {'Go': 3696333, 'Cuda': 263316, 'C++': 168021, 'JavaScript': 85240, 'C': 36683, 'HTML': 26163, 'ANTLR': 15789, 'CMake': 11451, 'Shell': 3849, 'CSS': 3171, 'Dockerfile': 1169}
+
+
+README-45-RelaxedJS-ReLaXed
+
+Languages used: {'JavaScript': 36977, 'HTML': 12242, 'CSS': 2969}
+
+
+README-46-FormidableLabs-urql
+
+Languages used: {'TypeScript': 681668, 'JavaScript': 127824, 'HTML': 23041}
+
+
+README-47-LiskHQ-lisk-sdk
+
+Languages used: {'TypeScript': 3590850, 'JavaScript': 402113, 'SCSS': 24174, 'Groovy': 8076, 'Shell': 7736, 'HTML': 3858, 'Batchfile': 62}
+
+
+README-48-ianstormtaylor-slate
+
+Languages used: {'TypeScript': 733851, 'JavaScript': 20716, 'CSS': 1015}
+
+
+README-49-ddd-by-examples-library
+
+Languages used: {'Java': 144010, 'Groovy': 116246, 'Dockerfile': 164}
+
+
+README-50-bufferapp-clean-architecture-components-boilerplate
+
+Languages used: {'Kotlin': 95169}
+
+
+README-51-panjf2000-gnet
+
+Languages used: {'Go': 240830}
+
+
+README-52-ninject-Ninject
+
+Languages used: {'C#': 1609054}
+
+
+README-53-h4cc-awesome-elixir
+
+Languages used: {'Elixir': 9260}
+
+
+README-54-TonnyL-Espresso
+
+Languages used: {'Java': 532240}
+
+
+README-55-KittyGiraudel-SJSJ
+
+Languages used: {'HTML': 17332, 'CSS': 8786, 'JavaScript': 4962, 'Ruby': 186}
+
+
+README-56-erikjhordan-rey-Clean-Architecture-Android
+
+Languages used: {'Java': 93588}
+
+
+README-57-Carthage-Carthage
+
+Languages used: {'Swift': 602234, 'C': 15543, 'Shell': 15425, 'Makefile': 2879}
+
+
+README-58-berndruecker-flowing-retail
+
+Languages used: {'Java': 215487, 'TypeScript': 34096, 'C#': 18809, 'Go': 13105, 'Mustache': 12792, 'HTML': 8805, 'Batchfile': 6263, 'JavaScript': 4310, 'Dockerfile': 1625}
+
+
+README-59-emedinaa-kotlin-mvvm
+
+Languages used: {'Kotlin': 17028}
+
+
+README-60-cer-event-sourcing-examples
+
+Languages used: {'JavaScript': 2240239, 'Java': 208772, 'Scala': 47519, 'CSS': 42905, 'HTML': 8466, 'Shell': 5989, 'Groovy': 2984}
+
+
+README-61-blackbird71SR-Hello-World
+
+Languages used: {'Assembly': 355, 'HTML': 279, 'PHP': 275, 'COBOL': 193, 'C#': 179, 'Cool': 158, 'Objective-C': 154, 'Crystal': 140, 'Visual Basic': 133, 'ABAP': 132, 'Java': 111, 'Erlang': 110, 'C++': 106, 'Brainfuck': 106, 'Groovy': 93, 'Go': 77, 'C': 77, 'Pascal': 69, 'Kotlin': 64, 'D': 63, 'Scala': 63, 'Forth': 62, 'Elixir': 48, 'R': 44, 'Dart': 41, 'Rust': 40, 'MATLAB': 38, 'Perl': 37, 'AutoIt': 34, 'Haskell': 32, 'Batchfile': 31, 'OCaml': 29, 'TypeScript': 28, 'JavaScript': 28, 'Fortran': 28, 'PostScript': 27, 'PowerShell': 25, 'Clojure': 24, 'QMake': 24, 'Standard ML': 23, 'Julia': 23, 'NewLisp': 23, 'CoffeeScript': 22, 'Python': 21, 'Lua': 21, 'Swift': 21, 'Ruby': 19, 'Tcl': 19, 'Shell': 19, 'Perl 6': 19, 'Nim': 18}
+
+
+README-62-chebur-pjsip
+
+Languages used: {'C': 2802560, 'C++': 577882, 'Objective-C': 86712, 'Shell': 44814, 'Ruby': 7314, 'Perl': 4948}
+
+
+README-63-ablestack-nestjs-bff
+
+Languages used: {'TypeScript': 356517, 'JavaScript': 698}
+
+
+README-64-daxnet-Apworks
+
+Languages used: {'C#': 1791660, 'Csound Document': 21700, 'Shell': 892, 'Batchfile': 588}
+
+
+README-65-ddd-by-examples-factory
+
+Languages used: {'Java': 88548, 'Groovy': 87180, 'Gherkin': 8443, 'Dockerfile': 213}
+
+
+README-66-felangel-bloc
+
+Languages used: {'Dart': 428035, 'TypeScript': 33272, 'Java': 14977, 'Kotlin': 12473, 'CMake': 7001, 'C++': 3966, 'HTML': 3366, 'Ruby': 2684, 'Swift': 1678, 'JavaScript': 1263, 'Objective-C': 829, 'Shell': 782, 'C': 670}
+
+
+README-67-bayandin-awesome-awesomeness
+
+Languages used: {'Ruby': 1783}
+
+
+README-68-T1T4N-NVNC
+
+Languages used: {'C#': 378311}
+
+
+README-69-VladimirWrites-BLTaxi
+
+Languages used: {'Kotlin': 150360, 'HTML': 15579}
+
+
+README-70-KhronosGroup-MoltenVK
+
+Languages used: {'Objective-C++': 1354410, 'Objective-C': 734329, 'C++': 373159, 'C': 31127, 'Shell': 28687, 'Makefile': 3699}
+
+
+README-71-neoml-lib-neoml
+
+Languages used: {'C++': 5173128, 'Python': 577866, 'Metal': 321650, 'Objective-C++': 212045, 'Cuda': 211393, 'C': 147352, 'Jupyter Notebook': 142699, 'CMake': 103774, 'Swift': 43688, 'Kotlin': 36322, 'Java': 24953, 'Objective-C': 11586, 'Makefile': 7994, 'Batchfile': 3906, 'Shell': 1448}
+
+
+README-72-Eli-Fox-LEGO-Catalog
+
+Languages used: {'Kotlin': 88895}
+
+
+README-73-aymericdamien-TopDeepLearning
+
+Languages used: {'Python': 4701}
+
+
+README-74-bufferapp-android-clean-architecture-mvi-boilerplate
+
+Languages used: {'Kotlin': 105801}
+
+
+README-75-charlax-professional-programming
+
+Languages used: {'Python': 1605, 'HTML': 615}
+
+
+README-76-rekihattori-awesome-programmers
+
+Languages used: {'CSS': 9056, 'HTML': 4495, 'JavaScript': 536}
+
+
+README-77-JavascriptNet-Javascript.Net
+
+Languages used: {'C++': 133313, 'C#': 76185}
+
+
+README-78-miripiruni-frontdesk
+
+Languages used: {'Shell': 1608}
+
+
+README-79-grab-front-end-guide
+
+Languages used: {'JavaScript': 301}
+
+
+README-80-UVVM-UVVM
+
+Languages used: {'VHDL': 3474870, 'Stata': 203360, 'Python': 194947, 'Shell': 20932}
+
+
+README-81-mbadry1-Top-Deep-Learning
+
+Languages used: {'Python': 1748}
+
+
+README-82-mono-mono
+
+Languages used: {'C#': 278527649, 'C': 20367752, 'TSQL': 3587831, 'PLpgSQL': 2626770, 'ASP.NET': 2264375, 'JavaScript': 1622780, 'Makefile': 1452208, 'Shell': 782066, 'HTML': 632302, 'M4': 323416, 'Python': 279622, 'C++': 254542, 'PowerShell': 138380, 'Batchfile': 84644, 'PLSQL': 70204, 'Perl': 61255, 'XSLT': 37762, 'Groovy': 19492, 'Ruby': 15052, 'CMake': 12827, 'CSS': 10166, 'Roff': 9064, 'Java': 5089, 'Assembly': 4183, 'Objective-C': 4041, 'DTrace': 2862, 'Rich Text Format': 1720, 'Visual Basic .NET': 1413, 'sed': 634, 'Smalltalk': 602, 'Lua': 529, 'PHP': 152}
+
+
+README-83-tensorforce-tensorforce
+
+Languages used: {'Python': 1527537, 'Shell': 1172}
+
+
+README-84-alibaba-coobjc
+
+Languages used: {'Objective-C': 488314, 'Swift': 36583, 'Objective-C++': 23532, 'C': 21938, 'Assembly': 8504, 'Ruby': 3999}
+
+
+README-85-bencodezen-vue-enterprise-boilerplate
+
+Languages used: {'JavaScript': 74728, 'Vue': 14532, 'SCSS': 12361, 'Perl': 2815, 'Raku': 1298, 'HTML': 516, 'Dockerfile': 358}
+
+
+README-86-Tencent-omi
+
+Languages used: {'JavaScript': 49702754, 'HTML': 3735979, 'CSS': 264977, 'TypeScript': 131147, 'SCSS': 125245, 'Vue': 3618, 'Less': 1234, 'Shell': 26}
+
+
+README-87-Kristories-awesome-guidelines
+
+Languages used: {'JavaScript': 68}
+
+
+README-88-danoli3-ofxiOSBoost
+
+Languages used: {'C++': 100903006, 'C': 191790, 'Shell': 36943, 'Makefile': 2756, 'Objective-C++': 2637, 'Ruby': 891}
+
+
+README-89-PatilShreyas-Foodium
+
+Languages used: {'Kotlin': 73734}
+
+
+README-90-typelevel-cats-effect
+
+Languages used: {'Scala': 1060279, 'Java': 8903, 'Shell': 1635, 'Nix': 815}
+
+
+README-91-xmake-io-xmake
+
+Languages used: {'C': 4397601, 'Lua': 3615034, 'Assembly': 1476700, 'C++': 790699, 'Makefile': 83589, 'Perl': 34522, 'Objective-C': 30650, 'Shell': 23875, 'Cuda': 20679, 'Elixir': 17744, 'PowerShell': 12428, 'Roff': 12340, 'NSIS': 10220, 'CMake': 8103, 'Swift': 5137, 'Batchfile': 2715, 'Yacc': 2015, 'VBScript': 1989, 'Zig': 1858, 'D': 1596, 'Go': 1425, 'QML': 1319, 'Fortran': 1272, 'Objective-C++': 588, 'Lex': 466, 'Rust': 440}
+
+
+README-92-thuhcsi-Crystal
+
+Languages used: {'C++': 997607, 'C': 245476, 'Smarty': 10195, 'Lex': 1883, 'Makefile': 753, 'Batchfile': 52}
+
+
+README-93-fendouai-Awesome-TensorFlow-Chinese
+
+Languages used: {'Python': 87}
+
+
+README-94-bluelinelabs-Conductor
+
+Languages used: {'Java': 279924, 'Kotlin': 156831}
+
+
+README-95-nuhkoca-kotlin-modular-tdd-coroutines-mvvm
+
+Languages used: {'Kotlin': 152000, 'Shell': 3189, 'Java': 596}
+
+
+README-96-loretoparisi-docker
+
+Languages used: {'Python': 169709, 'Dockerfile': 41596, 'Go': 31436, 'Makefile': 27261, 'Shell': 23937}
+
+
+README-97-mhxion-awesome-discord-communities
+
+Languages used: {'Python': 10005}
+
+
+README-98-rakyll-go-hardware
+
+Languages used: {'Go': 13}
+
+
+README-99-ritesh-singh-WeatherApplication
+
+Languages used: {'Kotlin': 8717}
+
+
+README-100-iambaljeet-TikTok
+
+Languages used: {'Kotlin': 24016}
+
+
