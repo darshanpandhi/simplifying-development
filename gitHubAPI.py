@@ -1,42 +1,135 @@
 import os
-import requests
 from dotenv import load_dotenv
 from github import Github
 
 load_dotenv() # load all the environment variables from the .env file
 
-SEARCH_KEYWORD_1 = "framework"
-SEARCH_KEYWORD_2 = "language"
-SEARCH_KEYWORD_3 = "library"
-SEARCH_KEYWORD_4 = "package"
-SEARCH_KEYWORD_5 = "architecture"
-SEARCH_KEYWORD_6 = "platform"
-SEARCH_KEYWORD_7 = "plugin"
-SEARCH_KEYWORD_8 = "database"
+# SEARCH_KEYWORD_1 = "framework"
+# SEARCH_KEYWORD_2 = "language"
+# SEARCH_KEYWORD_3 = "library"
+# SEARCH_KEYWORD_4 = "package"
+# SEARCH_KEYWORD_5 = "architecture"
+# SEARCH_KEYWORD_6 = "platform"
+# SEARCH_KEYWORD_7 = "plugin"
+# SEARCH_KEYWORD_8 = "database"
 
-TOTAL_READMES_TO_GET = 100
+# TOTAL_READMES_TO_GET = 100
+TOTAL_REPOS_TO_GET = 100
+MIN_STARS = 50
+MIN_WATCHING = 50
 
-def generateQueryString():
+OUTPUT_FILE_NAME = 'repos.txt'
+
+languageDict = {}
+
+# def generateQueryString():
   
-  searchKeywords = SEARCH_KEYWORD_1 + " " + SEARCH_KEYWORD_2 + " " + SEARCH_KEYWORD_3 + " " + SEARCH_KEYWORD_5
+#   # searchKeywords = SEARCH_KEYWORD_1 + " " + SEARCH_KEYWORD_2 + " " + SEARCH_KEYWORD_3 + " " + SEARCH_KEYWORD_5
 
-  return searchKeywords + " " + "in:readme"
+#   # return searchKeywords + " " + "in:readme"
+#   return ""
 
-def downloadFile(url, saveAsName):
-  if "counter" not in downloadFile.__dict__: 
-    downloadFile.counter = 1
+# def downloadFile(url, saveAsName):
+#   if "counter" not in downloadFile.__dict__: 
+#     downloadFile.counter = 1
   
-  # print('Downloading Readme file', downloadFile.counter, "/", LIMIT)
+#   response = requests.get(url, allow_redirects=True)
+#   saveAsLocation = 'Readme Files/' + saveAsName + '.md'
   
-  response = requests.get(url, allow_redirects=True)
-  saveAsLocation = 'Readme Files/' + saveAsName + '.md'
-  # saveAsLocation = 'Readme/README' + str(downloadFile.counter) + '.md'
-  # saveAsLocation = 'Readme Files/README' + str(downloadFile.counter) + '.md'  # counter + 1 to avoid 0th index in file name
-  downloadFile.counter += 1
-  open(saveAsLocation, 'wb').write(response.content)
+#   downloadFile.counter += 1
+#   open(saveAsLocation, 'wb').write(response.content)
 
-def callGitHubSearchAPI():
+def updateLanguageStats(languages):
+  for language in languages:
+    if language in languageDict:
+      languageDict[language] += 1
+    else:
+      languageDict[language] = 1
 
+def getRepos(githubObj, minStarCount, minWatchCount, outputFileName):
+  
+  emptyFile(outputFileName)
+
+  print('\nFiltering Repos...\n')
+
+  repositories = githubObj.get_repos()
+
+  index = 0
+  reposObtainedSoFar = 0
+
+  while(reposObtainedSoFar < TOTAL_REPOS_TO_GET):
+    
+    repo = repositories[index]
+
+    print('Checking repo number {}'.format(index + 1))
+
+    try:
+      repoStars = repo.stargazers_count
+      repoWatchers = repo.subscribers_count
+    except:
+      print('There is a problem with the repository number {}, {}\n Ignored\n'.format(index + 1, repo.html_url))
+      repoStars = -1
+      repoWatchers = -1
+
+    if(repoStars >= minStarCount and repoWatchers >= minWatchCount):
+      reposObtainedSoFar += 1
+      
+      print('\nFound {} repos so far\n'.format(reposObtainedSoFar))
+
+      updateLanguageStats(repo.get_languages())
+
+
+      writeToFile(outputFileName, str(reposObtainedSoFar), repo.full_name, repo.html_url)
+    
+    index += 1
+
+
+
+def searchRepos(githubObj, minStarCount, minWatchCount, outputFileName):
+  
+  emptyFile(outputFileName)
+
+  print('\nFiltering Repos...\n')
+
+  repositories = githubObj.search_repositories(query = 'stars:>={}'.format(minStarCount))
+
+  index = 0
+  reposObtainedSoFar = 0
+
+  while(reposObtainedSoFar < TOTAL_REPOS_TO_GET):
+    
+    repo = repositories[index]
+
+    print('Checking repo number {}'.format(index + 1))
+
+    try:
+      repoStars = repo.stargazers_count
+      repoWatchers = repo.subscribers_count
+    except:
+      print('There is a problem with the repository number {}, {}\n Ignored\n'.format(index + 1, repo.html_url))
+      repoStars = -1
+      repoWatchers = -1
+
+    if(repoStars >= minStarCount and repoWatchers >= minWatchCount):
+      reposObtainedSoFar += 1
+      
+      print('\nFound {} repos so far\n'.format(reposObtainedSoFar))
+      
+      writeToFile(outputFileName, str(reposObtainedSoFar), repo.full_name, repo.html_url)
+    
+    index += 1
+
+def emptyFile(outputFileName):
+  file = open(outputFileName, "w")
+  file.close()
+
+def writeToFile(outputFileName, srNo, repoName, repoUrl):
+  file = open(outputFileName, "a")
+  repoInfoString = srNo + " " + repoName + " " + repoUrl + '\n\n'
+  file.write(repoInfoString)
+  file.close()
+
+def createGithubObj():
   access_token = os.getenv('GITHUB_PERSONAL_ACCESS_TOKEN')
 
   # Creating a Github instance:
@@ -44,55 +137,12 @@ def callGitHubSearchAPI():
 
   githubObj = Github(base_url="https://api.github.com", login_or_token=access_token)
 
-  repositories = githubObj.search_repositories(query = QUERY_STRING)
+  return githubObj
 
-  readmesObtained = 0
-  index = 0
+githubObj = createGithubObj()
 
-  file = open('output.txt', 'w')
+getRepos(githubObj, MIN_STARS, MIN_WATCHING, OUTPUT_FILE_NAME)
 
-  while(readmesObtained < TOTAL_READMES_TO_GET):
-    repo = repositories[index]
-    languagesDict = repo.get_languages()
-    
-    if(len(languagesDict) > 0):  # filter out repos that have no language used
-      
-      saveAsName = 'README-' + str(readmesObtained + 1) + '-' + repo.full_name.replace("/","-")
-      print('Obtaining', saveAsName)
+print(languageDict)
 
-      file.write(str(saveAsName) + '\n\n')
-      file.write('Languages used: ' + str(languagesDict) + '\n\n\n')
-
-      try:
-        contents = repo.get_contents("README.md")
-      except:
-        try:
-          contents = repo.get_contents("readme.md")
-        except:
-          try:
-            contents = repo.get_contents("Readme.md")
-          except:
-            try:
-              contents = repo.get_contents("README.mdown")
-            except:
-              try:
-                contents = repo.get_contents("README.rst")
-              except:
-                try:
-                  contents = repo.get_contents("README.adoc")
-                except:
-                  contents = repo.get_contents("README")
-
-      url = contents.download_url
-      
-      downloadFile(url, saveAsName)
-
-      readmesObtained += 1
-    index += 1
-  file.close()
-
-QUERY_STRING = generateQueryString()
-
-print(QUERY_STRING)
-
-callGitHubSearchAPI()
+print('Program Terminated')
