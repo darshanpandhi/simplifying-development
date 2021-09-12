@@ -4,16 +4,6 @@ from github import Github
 
 load_dotenv() # load all the environment variables from the .env file
 
-# SEARCH_KEYWORD_1 = "framework"
-# SEARCH_KEYWORD_2 = "language"
-# SEARCH_KEYWORD_3 = "library"
-# SEARCH_KEYWORD_4 = "package"
-# SEARCH_KEYWORD_5 = "architecture"
-# SEARCH_KEYWORD_6 = "platform"
-# SEARCH_KEYWORD_7 = "plugin"
-# SEARCH_KEYWORD_8 = "database"
-
-# TOTAL_READMES_TO_GET = 100
 TOTAL_REPOS_TO_GET = 100
 MIN_STARS = 50
 MIN_WATCHING = 50
@@ -22,22 +12,6 @@ OUTPUT_FILE_NAME = 'repos.txt'
 
 languageDict = {}
 
-# def generateQueryString():
-  
-#   # searchKeywords = SEARCH_KEYWORD_1 + " " + SEARCH_KEYWORD_2 + " " + SEARCH_KEYWORD_3 + " " + SEARCH_KEYWORD_5
-
-#   # return searchKeywords + " " + "in:readme"
-#   return ""
-
-# def downloadFile(url, saveAsName):
-#   if "counter" not in downloadFile.__dict__: 
-#     downloadFile.counter = 1
-  
-#   response = requests.get(url, allow_redirects=True)
-#   saveAsLocation = 'Readme Files/' + saveAsName + '.md'
-  
-#   downloadFile.counter += 1
-#   open(saveAsLocation, 'wb').write(response.content)
 
 def updateLanguageStats(languages):
   for language in languages:
